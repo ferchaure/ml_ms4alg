@@ -1,5 +1,5 @@
 import numpy as np
-
+from msalg import branch_cluster, compute_principal_components
 def sort_clip(clips, num_features = 10, max_num_clips_for_pca=1000)
 
     # Subsample and extract clips for pca
